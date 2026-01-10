@@ -15,10 +15,14 @@ button{
     color: white;
     font-size: 20px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 header{
     background-color: #FFF8F3;
+    background: url("../images/developer.png"), url(../images/header_bg.png),#FFF8F3 ;
+    background-repeat: no-repeat;
+    background-position: top left , bottom right;
 }
 .open-sans {
   font-family: "Open Sans", sans-serif;
@@ -54,4 +58,48 @@ nav{
 
     font-size: 45px;
     font-weight:900;
+}
+
+.banner{
+    max-width: 1332px;
+    /* border: 3px solid red; */
+    margin: 46px 38px 0px 230px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info h2{
+    font-size: 45px;
+    color: #474747;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.info h1{
+    font-size: 85px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.info p{
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+.info{
+    max-width: 585px;;
+}
+
+.person-img img{
+    max-width: 584;
+    vertical-align: middle;
+}
+
+.button-container button{
+    
+    margin-right: 30px;
 }
