@@ -213,3 +213,72 @@ nav{
     height: 44px;
     margin-bottom: 30px;
 }
+
+.edu{
+    width: 71%;
+    max-width: 1140px;
+    /* border: 1px solid red; */
+    margin: 0px auto;
+    margin-top: 130px;
+}
+
+.edu-summary-title{
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    color: #181818;
+    margin-bottom: 113px;
+}
+
+.edu-exp{
+    display: flex;
+    /* border: 1px solid red; */
+    gap: 24px
+}
+
+.edu-title{
+    font-size: 30px;
+    font-weight: bold;
+    color: #474747;
+    margin-bottom: 30px;
+}
+
+.edu-card{
+    /* border: 1px solid red; */
+    max-width: 511px;
+    /* margin-right: 47px; */
+}
+
+.edu-card p{
+    margin-right: 47px;
+}
+
+.edu-card h4{
+    font-size: 25px;
+    font-weight: bold;
+    color:#474747;
+    margin-bottom: 10px;
+}
+
+.edu-card h3{
+    font-size: 20px;
+    font-weight:600;
+    color:#757575;
+    margin-bottom: 20px;
+}
+
+.edu-card p{
+    font-size: 16px;
+    color:#757575;
+    line-height: 28px;
+    margin-bottom: 30px;
+
+}
+
+hr{
+    margin-bottom: 30px;
+    border: none;
+    height: 2px;
+    background-color: #D1D1D1;
+}
+
