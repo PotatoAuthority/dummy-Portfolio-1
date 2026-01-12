@@ -7,6 +7,17 @@
     color: #FD6E0A;
 }
 
+.button{
+    padding: 19px 36px;
+    border: none;
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
 button{
     padding: 19px 36px;
     border: none;
@@ -282,3 +293,66 @@ hr{
     background-color: #D1D1D1;
 }
 
+.cv-butt{
+    text-align: center;
+    margin-top: 20px;
+}
+
+footer{
+    background-color: #FFF8F3;
+}
+
+.foot-container{
+    width: 71%;
+    max-width: 1140px;
+    /* border: 1px solid red; */
+    margin: 0px auto;
+    display: flex;
+    margin-top: 113px;
+    gap: 117px;
+    padding: 130px 0px;
+}
+
+.footer-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+.connect{
+    max-width: 562px;
+}
+
+.message{
+    /* max-width: 461px;; */
+    /* border: 1px solid red; */
+}
+
+.connect p{
+    font-size: 16px;
+    line-height: 28px;
+    color: #474747;
+    margin-bottom: 30px;
+}
+
+.message input[type="text"], .message textarea{
+    font-family: "Open Sans", sans-serif;
+    width: 461px;
+    padding: 18px 31px;
+    margin-bottom: 24px;
+    color: #757575;
+    font-size: 16px;
+    line-height: 28px;
+    border: none;
+}
+
+textarea{
+    width: 461px;
+    height: 180px;
+    resize: none;
+}
+
+.connect-img a{
+    margin-right: 24px;
+}
